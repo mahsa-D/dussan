@@ -74,8 +74,71 @@ td { vertical-align: top; }
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 
 /* SANTIAGO DUSSAN STYLES */
+body {
+	background-color:gray;
+}
 
+h1 ,
+h2 ,
+h3 {
+	margin:0;
+}
 
+#brand {
+	
+}
+
+#header-dussan {
+	background-color:#fff;
+}
+
+/* Destop fancyness */
+@media only screen and (min-width: 767px) {
+
+	body,
+	html {
+		height:100%;
+	}
+
+	#header-dussan {
+		float:left;
+		height:100%;
+		width:162px;
+	}
+
+	#viewport {
+		height: 100%;
+		margin-left:162px;
+	}
+
+	.page {
+		height:100%;
+		width:100%;
+	}
+
+	.page article {
+		display:block;
+	}
+
+	.page article:first-child {
+		width:66%;
+		height:66%;
+		float:left;
+	}
+
+	.page article:nth-child(2) {
+		width:34%;
+		height:100%;
+		float:right;
+	}
+
+	.page article:last-child {
+		height:34%;
+		width:66%;
+		float:left;
+	}
+
+}
 
 
 

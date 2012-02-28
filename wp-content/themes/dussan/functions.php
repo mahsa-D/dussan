@@ -1,5 +1,19 @@
 <?php
 
+// REMOVE STUFF
+function dussan_function_admin_bar(){
+    return false;
+}
+add_filter( 'show_admin_bar' , 'dussan_function_admin_bar');
+
+remove_action('wp_head', 'wp_generator');
+
+
+// ADD STUFF
+add_theme_support( 'menus' );
+
+// SCRIPTS
+
 function dussan_scripts_method() {
 
 	wp_register_script('dussan_plugins',get_template_directory_uri() . '/js/plugins.js','','',true);
