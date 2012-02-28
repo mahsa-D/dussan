@@ -12,7 +12,7 @@
 	<meta name="description" content="<?php bloginfo('description'); ?>">
 
 	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="<?php bloginfo('styleshet_url'); ?>">
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 	<?php wp_head(); ?>
 
 </head>
