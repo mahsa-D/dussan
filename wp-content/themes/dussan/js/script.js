@@ -6,6 +6,7 @@ jQuery(document).ready(function($) {
 	$('#viewport').serialScroll({
 		axis: 'y',
 		cycle: false,
+		easing: 'easeInOutExpo',
 		items:'.slide'
 	});
 

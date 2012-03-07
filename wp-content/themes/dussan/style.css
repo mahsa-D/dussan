@@ -234,28 +234,88 @@ h3 {
 		display:block;
 	}
 
-	.slide article:first-child {
+	
+/* first slide */
+	.slide:nth-child(5n-4) article:first-child {
 		width:66%;
 		height:66%;
 		float:left;
 	}
 
-	.slide article:nth-child(2) {
+	.slide:nth-child(5n-4) article:nth-child(2) {
 		width:34%;
 		height:100%;
 		float:right;
 	}
 
+	.slide:nth-child(5n-4) article:last-child {
+		height:34%;
+		width:66%;
+		float:left;
+	}
+
+/* second slide */
+	.slide:nth-child(5n-3) article:first-child {
+		width:34%;
+		height:100%;
+		float:left;
+	}
+
+	.slide:nth-child(5n-3) article:nth-child(2) {
+		width:66%;
+		height:34%;
+		float:right;
+	}
+
+	.slide:nth-child(5n-3) article:last-child {
+		height:66%;
+		width:66%;
+		float:left;
+	}
+
+/* third slide */
+	.slide:nth-child(5n-2) article:first-child {
+		width:66%;
+		height:34%;
+		float:left;
+	}
+
+	.slide:nth-child(5n-2) article:nth-child(2) {
+		width:34%;
+		height:100%;
+		float:right;
+	}
+
+	.slide:nth-child(5n-2) article:last-child {
+		height:66%;
+		width:66%;
+		float:left;
+	}
+
+/* fourth slide */
+	.slide:nth-child(5n-1) article:first-child {
+		width:34%;
+		height:100%;
+		float:left;
+	}
+
+	.slide:nth-child(5n-1) article:nth-child(2) {
+		width:66%;
+		height:66%;
+		float:left;
+	}
+
+	.slide:nth-child(5n-1) article:last-child {
+		height:34%;
+		width:66%;
+		float:right;
+	}
+
+
 	.slide article:nth-child(2) h1 ,
 	.slide article:first-child h1 {
 		display:block;
 		border-top:1px dashed #000;
-	}
-
-	.slide article:last-child {
-		height:34%;
-		width:66%;
-		float:left;
 	}
 
 
