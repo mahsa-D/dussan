@@ -146,6 +146,18 @@ td { vertical-align: top; }
        }
 
 /* Main */
+a ,
+a:link ,
+a:visited {
+	color:#000;
+	text-decoration:none;
+}
+
+a:hover {
+	background-color:#EE127B;
+	color:#fff;
+}
+
 body {
 	background-color:gray;
 	font-family: 'HelveticaNeueLTStd-Cn', 'Helvetica', sans-serif;
@@ -158,11 +170,28 @@ h3 {
 }
 
 #brand {
-	
+	background-image:url('img/logo.png');
+	float:right;
+	height:130px;
+	margin:0 0 1.2em 0;
+	width:145px;	
 }
 
 #header-dussan {
 	background-color:#fff;
+	padding:13px;
+}
+
+#menu-main li a {
+	font-family:'HelveticaNeueLTStd-MdCn';
+	font-size:1.2em;
+	padding:8px 4px 0;
+	text-transform:lowercase;
+}
+
+.current-menu-item a {
+	background-color:#EE127B;
+	color:#fff;
 }
 
 /* Destop fancyness */
@@ -171,6 +200,10 @@ h3 {
 	body,
 	html {
 		height:100%;
+	}
+
+	#brand {
+		float:none;
 	}
 
 	#container {
@@ -182,7 +215,7 @@ h3 {
 		left:0;
 		position:fixed;
 		top:0;
-		width:162px;
+		width:136px;
 	}
 
 	#viewport {

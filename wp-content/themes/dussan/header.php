@@ -19,7 +19,7 @@
 <body <?php body_class();?>>
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
 <header id="header-dussan">
-	<hgroup id="brand">
+	<hgroup class="ir" id="brand">
 		<h1><?php bloginfo('title'); ?></h1>
 		<h2><?php bloginfo('description'); ?></h2>
 	</hgroup>
