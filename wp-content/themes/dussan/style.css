@@ -74,8 +74,81 @@ td { vertical-align: top; }
 .chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
 
 /* SANTIAGO DUSSAN STYLES */
+
+/* Fonts */
+
+	/* HelveticaNeue */
+      @font-face {
+                        font-family: 'HelveticaNeueLTStd-Cn';
+                        src: url('fonts/HelveticaNeueLTStd-Cn.eot');
+       }
+
+      @font-face {
+                        font-family: 'HelveticaNeueLTStd-Cn';
+                        src: url('fonts/HelveticaNeueLTStd-Cn.woff') format('woff'),
+                        url('fonts/HelveticaNeueLTStd-Cn.svg#HelveticaNeueLTStd-Cn') format('svg');
+       }
+
+      @font-face {
+                        font-family: 'HelveticaNeueLTStd-MdCn';
+                        src: url('fonts/HelveticaNeueLTStd-MdCn.eot');
+       }
+
+      @font-face {
+                        font-family: 'HelveticaNeueLTStd-MdCn';
+                        src: url('fonts/HelveticaNeueLTStd-MdCn.woff') format('woff'),
+                        url('fonts/HelveticaNeueLTStd-MdCn.svg#HelveticaNeueLTStd-MdCn') format('svg');
+       }
+
+	/* Sentinel Book */
+      @font-face {
+                        font-family: 'Sentinel-Book';
+                        src: url('fonts/Sentinel-Book.eot');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-Book';
+                        src: url('fonts/Sentinel-Book.woff') format('woff'),
+                        url('fonts/Sentinel-Book.svg#Sentinel-Book') format('svg');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-BookItalic';
+                        src: url('fonts/Sentinel-BookItalic.eot');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-BookItalic';
+                        src: url('fonts/Sentinel-BookItalic.woff') format('woff'),
+                        url('fonts/Sentinel-BookItalic.svg#Sentinel-BookItalic') format('svg');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-Light';
+                        src: url('fonts/Sentinel-Light.eot');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-Light';
+                        src: url('fonts/Sentinel-Light.woff') format('woff'),
+                        url('fonts/Sentinel-Light.svg#Sentinel-Light') format('svg');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-LightItalic';
+                        src: url('fonts/Sentinel-LightItalic.eot');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-LightItalic';
+                        src: url('fonts/Sentinel-LightItalic.woff') format('woff'),
+                        url('fonts/Sentinel-LightItalic.svg#Sentinel-LightItalic') format('svg');
+       }
+
+/* Main */
 body {
 	background-color:gray;
+	font-family: 'HelveticaNeueLTStd-Cn', 'Helvetica', sans-serif;
 }
 
 h1 ,
@@ -100,43 +173,58 @@ h3 {
 		height:100%;
 	}
 
-	#header-dussan {
-		float:left;
+	#container {
 		height:100%;
+	}
+
+	#header-dussan {
+		height:100%;
+		left:0;
+		position:fixed;
+		top:0;
 		width:162px;
 	}
 
 	#viewport {
 		height: 100%;
-		margin-left:162px;
+		padding-left:162px;
+		overflow-x:visible;
+		overflow-y:scroll;
 	}
 
-	.page {
+	.slide {
 		height:100%;
 		width:100%;
 	}
 
-	.page article {
+	.slide article {
 		display:block;
 	}
 
-	.page article:first-child {
+	.slide article:first-child {
 		width:66%;
 		height:66%;
 		float:left;
 	}
 
-	.page article:nth-child(2) {
+	.slide article:nth-child(2) {
 		width:34%;
 		height:100%;
 		float:right;
 	}
 
-	.page article:last-child {
+	.slide article:nth-child(2) h1 ,
+	.slide article:first-child h1 {
+		display:block;
+		border-top:1px dashed #000;
+	}
+
+	.slide article:last-child {
 		height:34%;
 		width:66%;
 		float:left;
 	}
+
 
 }
 
