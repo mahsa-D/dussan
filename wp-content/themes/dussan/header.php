@@ -25,7 +25,9 @@
 	</hgroup>
 
 	<nav id="nav-main">
-		<?php wp_nav_menu(); ?>
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
+
+		<?php endif; ?>
 	</nav>
 
 </header>

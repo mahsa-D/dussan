@@ -209,6 +209,14 @@ h3 {
 	color:#fff;
 }
 
+.slide article {
+	background-position:50% 50%;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
 /* Destop fancyness */
 @media only screen and (min-width: 767px) {
 

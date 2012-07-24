@@ -2,138 +2,77 @@
 <div id="container">
 
 	<div id="viewport">
+		<?php 
+			$dussan_page = 1;
+			$imagen = 0;
+			$texto = 0;
 
-		<section class="slide" id="page1">
+			if(!is_single()){
+				// query_posts("orderby=rand");
+			}
 
-			<article <?php post_class('percent-66'); ?> style="background-color:#D3D3D3">
+			if(have_posts()){
+			while (have_posts()) : the_post();
+			$images =& get_children( 'post_type=attachment&post_mime_type=image&orderby=menu_order&post_parent='.$post->ID);
+			$large_image_url = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
+		?>
+
+		<?php if($dussan_page == 1){ ?>
+		<section class="slide" id="page<?php echo($dussan_page); ?>">
+		<?php } ?>
+
+		<?php 
+			/* Designer randomnes */ 
+			if($es_texto == 0 && $texto == 0){
+				$es_texto = rand(0, 1);
+			}else{
+				$es_texto = 0;
+			}
+			if($imagen == 2){
+				$es_texto = 1;
+			}
+		?>
+			<article <?php post_class(); if($large_image_url && $es_texto == 0){ echo("style='background-image:url(".$large_image_url[0].")'"); }?>>
 				<div class="article_header">
-					<h1>PAGE 1</h1>
+					<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+					<?php 
+						if($es_texto == 1){
+							$texto++;
+					?>
+					<?php the_excerpt(); ?>
+					<?php
+						}else{
+							$imagen++;
+						}
+					?>
 				</div>
 			</article>
 
-			<article <?php post_class('percent-34'); ?> style="background-color:#A7A6A6">
-				<div class="article_header">
-					<h1>Titulo</h1>
-				</div>
-			</article>
+		<?php 
+			if($dussan_page % 3 == 0){ 
+			$imagen = 0;
+			$texto = 0;
+		?>
+			</section>
+			<section class="slide" id="page<?php echo($dussan_page); ?>">
+		<?php 
+			} 
+		?>
 
-			<article <?php post_class('percent-34'); ?> style="background-color:#918F90">
-				<div class="article_header">
-					<h1>Titulo</h1>
-				</div>
-			</article>
-
+		<?php
+			$dussan_page++;
+			unset($images);
+			endwhile;
+		?>
 		</section>
 
-		<section class="slide" id="page2">
+		<?php
+			}else{
+				_e("No posts", "dussan");
+			}
+		?>
 
-			<article <?php post_class('percent-66'); ?> style="background-color:#D3D3D3">
-				<div class="article_header">
-					<h1>Titulo 2</h1>
-				</div>
-			</article>
 
-			<article <?php post_class('percent-34'); ?> style="background-color:#A7A6A6">
-				<div class="article_header">
-					<h1>Titulo</h1>
-				</div>
-			</article>
-
-			<article <?php post_class('percent-34'); ?> style="background-color:#918F90">
-				<div class="article_header">
-					<h1>Titulo</h1>
-				</div>
-			</article>
-
-		</section>
-
-		<section class="slide" id="page3">
-
-			<article <?php post_class('percent-66'); ?> style="background-color:#D3D3D3">
-				<div class="article_header">
-					<h1>Titulo 3</h1>
-				</div>
-			</article>
-
-			<article <?php post_class('percent-34'); ?> style="background-color:#A7A6A6">
-				<div class="article_header">
-					<h1>Titulo</h1>
-				</div>
-			</article>
-
-			<article <?php post_class('percent-34'); ?> style="background-color:#918F90">
-				<div class="article_header">
-					<h1>Titulo</h1>
-				</div>
-			</article>
-
-		</section>
-
-		<section class="slide" id="page4">
-
-			<article <?php post_class('percent-66'); ?> style="background-color:#D3D3D3">
-				<div class="article_header">
-					<h1>Titulo 4</h1>
-				</div>
-			</article>
-
-			<article <?php post_class('percent-34'); ?> style="background-color:#A7A6A6">
-				<div class="article_header">
-					<h1>Titulo</h1>
-				</div>
-			</article>
-
-			<article <?php post_class('percent-34'); ?> style="background-color:#918F90">
-				<div class="article_header">
-					<h1>Titulo</h1>
-				</div>
-			</article>
-
-		</section>
-
-		<section class="slide" id="page5">
-
-			<article <?php post_class('percent-66'); ?> style="background-color:#D3D3D3">
-				<div class="article_header">
-					<h1>Titulo 5</h1>
-				</div>
-			</article>
-
-			<article <?php post_class('percent-34'); ?> style="background-color:#A7A6A6">
-				<div class="article_header">
-					<h1>Titulo</h1>
-				</div>
-			</article>
-
-			<article <?php post_class('percent-34'); ?> style="background-color:#918F90">
-				<div class="article_header">
-					<h1>Titulo</h1>
-				</div>
-			</article>
-
-		</section>
-
-		<section class="slide" id="page6">
-
-			<article <?php post_class('percent-66'); ?> style="background-color:#D3D3D3">
-				<div class="article_header">
-					<h1>Titulo 6</h1>
-				</div>
-			</article>
-
-			<article <?php post_class('percent-34'); ?> style="background-color:#A7A6A6">
-				<div class="article_header">
-					<h1>Titulo</h1>
-				</div>
-			</article>
-
-			<article <?php post_class('percent-34'); ?> style="background-color:#918F90">
-				<div class="article_header">
-					<h1>Titulo</h1>
-				</div>
-			</article>
-
-		</section>
 	</div>
 
 </div>

@@ -11,6 +11,16 @@ remove_action('wp_head', 'wp_generator');
 
 // ADD STUFF
 add_theme_support( 'menus' );
+add_theme_support( 'post-thumbnails' );
+
+if ( function_exists('register_sidebar') )
+    register_sidebar(array(
+        'before_widget' => '',
+        'after_widget' => '',
+        'before_title' => '<div class="title">',
+        'after_title' => '</div>',
+    ));
+    
 
 // SCRIPTS
 
