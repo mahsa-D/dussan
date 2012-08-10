@@ -1,0 +1,3 @@
+[submodule "wp-content/themes/Touchfolio"]
+	path = wp-content/themes/Touchfolio
+	url = git@github.com:8manos/Touchfolio.git
