@@ -104,6 +104,10 @@ Version:        0.1.0
 	text-transform: uppercase;
 }
 
+#menu-main li ul li a:hover {
+	background-color: transparent;
+}
+
 .current-album-menu-item a {
 	background-color: #FEDD0F;
 }
