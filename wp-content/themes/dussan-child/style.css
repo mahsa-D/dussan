@@ -93,4 +93,5 @@ Version:        0.1.0
 #menu-main li a:hover {
 	background-color:#EE127B;
 	color:#fff;
+	text-decoration: none;
 }
