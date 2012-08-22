@@ -97,6 +97,7 @@ Version:        0.1.0
 }
 
 .project-menu-sep {
+	display: none;
 	margin-bottom: 0;
 	font-size: 1px;
 }
