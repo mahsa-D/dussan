@@ -8,4 +8,76 @@ Template:       Touchfolio
 Version:        0.1.0
 */
 
-@import url("../Touchfolio/style.css");
+/* @import url("../Touchfolio/style.css"); */
+
+/* SANTIAGO DUSSAN STYLES */
+
+/* Fonts */
+
+	/* HelveticaNeue */
+      @font-face {
+                        font-family: 'HelveticaNeueLTStd-Cn';
+                        src: url('fonts/HelveticaNeueLTStd-Cn.eot');
+       }
+
+      @font-face {
+                        font-family: 'HelveticaNeueLTStd-Cn';
+                        src: url('fonts/HelveticaNeueLTStd-Cn.woff') format('woff'),
+                        url('fonts/HelveticaNeueLTStd-Cn.svg#HelveticaNeueLTStd-Cn') format('svg');
+       }
+
+      @font-face {
+                        font-family: 'HelveticaNeueLTStd-MdCn';
+                        src: url('fonts/HelveticaNeueLTStd-MdCn.eot');
+       }
+
+      @font-face {
+                        font-family: 'HelveticaNeueLTStd-MdCn';
+                        src: url('fonts/HelveticaNeueLTStd-MdCn.woff') format('woff'),
+                        url('fonts/HelveticaNeueLTStd-MdCn.svg#HelveticaNeueLTStd-MdCn') format('svg');
+       }
+
+	/* Sentinel Book */
+      @font-face {
+                        font-family: 'Sentinel-Book';
+                        src: url('fonts/Sentinel-Book.eot');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-Book';
+                        src: url('fonts/Sentinel-Book.woff') format('woff'),
+                        url('fonts/Sentinel-Book.svg#Sentinel-Book') format('svg');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-BookItalic';
+                        src: url('fonts/Sentinel-BookItalic.eot');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-BookItalic';
+                        src: url('fonts/Sentinel-BookItalic.woff') format('woff'),
+                        url('fonts/Sentinel-BookItalic.svg#Sentinel-BookItalic') format('svg');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-Light';
+                        src: url('fonts/Sentinel-Light.eot');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-Light';
+                        src: url('fonts/Sentinel-Light.woff') format('woff'),
+                        url('fonts/Sentinel-Light.svg#Sentinel-Light') format('svg');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-LightItalic';
+                        src: url('fonts/Sentinel-LightItalic.eot');
+       }
+
+      @font-face {
+                        font-family: 'Sentinel-LightItalic';
+                        src: url('fonts/Sentinel-LightItalic.woff') format('woff'),
+                        url('fonts/Sentinel-LightItalic.svg#Sentinel-LightItalic') format('svg');
+       }
