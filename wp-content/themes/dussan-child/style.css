@@ -101,3 +101,7 @@ Version:        0.1.0
 	margin-bottom: 0;
 	font-size: 1px;
 }
+
+.site-description {
+	display:none;
+}
