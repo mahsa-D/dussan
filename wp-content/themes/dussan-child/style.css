@@ -85,7 +85,12 @@ Version:        0.1.0
 
 #menu-main li a {
 	font-family:'HelveticaNeueLTStd-MdCn';
-	font-size:1.2em;
+	font-size:1.45em;
 	padding:8px 4px 0;
 	text-transform:lowercase;
+}
+
+#menu-main li a:hover {
+	background-color:#EE127B;
+	color:#fff;
 }
