@@ -95,3 +95,8 @@ Version:        0.1.0
 	color:#fff;
 	text-decoration: none;
 }
+
+.project-menu-sep {
+	margin-bottom: 0;
+	font-size: 1px;
+}
