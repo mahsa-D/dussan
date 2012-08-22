@@ -112,7 +112,7 @@ Version:        0.1.0
 
 .current-album-menu-item a ,
 .current-album-menu-item a:hover {
-	background-color: #FEDD0F;
+	background-color: #FEDD0F !important;
 }
 
 .project-menu-sep {
