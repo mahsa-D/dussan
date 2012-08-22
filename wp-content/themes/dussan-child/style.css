@@ -107,6 +107,7 @@ Version:        0.1.0
 
 #menu-main li ul li a:hover {
 	background-color: transparent;
+	color: #000;
 }
 
 .current-album-menu-item a {
