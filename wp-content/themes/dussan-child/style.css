@@ -97,7 +97,7 @@ Version:        0.1.0
 	text-decoration: none;
 }
 
-#menu-main li ul {
+#menu-main li ul li a {
 	font-family: 'Sentinel-Book';
 }
 
