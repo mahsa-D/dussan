@@ -81,3 +81,11 @@ Version:        0.1.0
                         src: url('fonts/Sentinel-LightItalic.woff') format('woff'),
                         url('fonts/Sentinel-LightItalic.svg#Sentinel-LightItalic') format('svg');
        }
+
+
+#menu-main li a {
+	font-family:'HelveticaNeueLTStd-MdCn';
+	font-size:1.2em;
+	padding:8px 4px 0;
+	text-transform:lowercase;
+}
