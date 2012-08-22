@@ -97,6 +97,10 @@ Version:        0.1.0
 	text-decoration: none;
 }
 
+#menu-main ul li ul {
+	font-family: 'Sentinel-Book';
+}
+
 .current-album-menu-item a {
 	background-color: #FEDD0F;
 }
