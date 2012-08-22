@@ -113,6 +113,10 @@ p img {
 	color: #000;
 }
 
+.aligncenter {
+	clear: none;
+}
+
 .current-album-menu-item a ,
 .current-album-menu-item a:hover {
 	background-color: #FEDD0F !important;
