@@ -82,6 +82,9 @@ Version:        0.1.0
                         url('fonts/Sentinel-LightItalic.svg#Sentinel-LightItalic') format('svg');
        }
 
+p img {
+	max-width: 100%;
+}
 
 #menu-main li a {
 	font-family:'HelveticaNeueLTStd-MdCn';
@@ -113,6 +116,10 @@ Version:        0.1.0
 .current-album-menu-item a ,
 .current-album-menu-item a:hover {
 	background-color: #FEDD0F !important;
+}
+
+.hentry {
+	max-width: 100%;
 }
 
 .project-menu-sep {
