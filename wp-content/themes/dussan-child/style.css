@@ -99,6 +99,7 @@ Version:        0.1.0
 
 #menu-main li ul li a {
 	font-family: 'Sentinel-Book';
+	text-transform: uppercase;
 }
 
 .current-album-menu-item a {
