@@ -91,7 +91,7 @@ Version:        0.1.0
 }
 
 #menu-main li a:hover ,
-#menu-main li.current-menu-item a {
+#menu-main li.current-menu-item > a {
 	background-color:#EE127B;
 	color:#fff;
 	text-decoration: none;
