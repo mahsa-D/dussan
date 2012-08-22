@@ -96,6 +96,10 @@ Version:        0.1.0
 	text-decoration: none;
 }
 
+.current-album-menu-item a {
+	background-color: #FEDD0F;
+}
+
 .project-menu-sep {
 	display: none;
 	margin-bottom: 0;
