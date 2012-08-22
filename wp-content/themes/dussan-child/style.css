@@ -110,7 +110,8 @@ Version:        0.1.0
 	color: #000;
 }
 
-.current-album-menu-item a {
+.current-album-menu-item a ,
+.current-album-menu-item a:hover {
 	background-color: #FEDD0F;
 }
 
