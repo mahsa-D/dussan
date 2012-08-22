@@ -96,6 +96,7 @@ Version:        0.1.0
 	color:#fff;
 	font-weight: normal;
 	text-decoration: none;
+	border-bottom: none;
 }
 
 #menu-main li ul li a {
