@@ -113,6 +113,10 @@ p img {
 	color: #000;
 }
 
+.album-content {
+      font-family: 'Sentinel-Book';
+}
+
 .aligncenter {
 	clear: none;
 }
