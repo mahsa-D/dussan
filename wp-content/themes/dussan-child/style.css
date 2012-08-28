@@ -113,6 +113,11 @@ p img {
 	color: #000;
 }
 
+.album-info-block {
+      bottom: auto;
+      top: 32px !important;
+} 
+
 .aligncenter {
 	clear: none;
 }
