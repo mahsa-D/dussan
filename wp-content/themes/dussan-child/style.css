@@ -140,3 +140,8 @@ p img {
 .site-description {
 	display:none;
 }
+
+.two-dim-slider .slider-album-indicator {
+      bottom: auto;
+      top: 32px !important;    
+}
