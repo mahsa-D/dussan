@@ -157,3 +157,38 @@ border-bottom: 0px solid
 border-bottom-color: 
 rgba(0,0,0,0.3);
 }
+
+.two-dim-slider .arrow-left a:hover .info-text.info-text-visible, .two-dim-slider .arrow-right a:hover .info-text.info-text-visible {
+visibility: visible;
+opacity: 100;
+color: 
+#ffffff;
+}
+
+.two-dim-slider .arrow-left a .info-text, .two-dim-slider .arrow-right a .info-text {
+display: block;
+visibility: hidden;
+background: 
+#ED2A7B;
+white-space: nowrap;
+float: left;
+position: absolute;
+left: 32px;
+top: 8px;
+padding: 7px 8px 6px;
+font-size: 12px;
+line-height: 18px;
+opacity: 0;
+
+}
+
+h3 {
+font-size: 1.5em;
+margin: 0 0 0.5em;
+line-height: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-weight: lighter;
+font-family: inherit;
+}
