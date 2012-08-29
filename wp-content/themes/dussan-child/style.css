@@ -220,3 +220,11 @@ background:
 rgba(237,42,123,100);
 text-decoration: none;
 }
+
+*::-moz-selection, ::selection {
+background: 
+#FFDD17;
+color: 
+#ffffff;
+text-shadow: none;
+}
