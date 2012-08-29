@@ -144,6 +144,19 @@ font-size: 12px;
 line-height: 20px;
 }
 
+.main-header {
+width: 10em;
+padding: 0 1em;
+margin-left: -13em;
+}
+
+.logo {
+margin: 1em 0 1px 0;
+width: auto;
+letter-spacing: 0;
+font-size: 1em;
+}
+
 #menu-main li a {
 font-family: 'HelveticaNeueLTStd-MdCn';
 font-size: 1.40em;
@@ -152,6 +165,13 @@ text-transform: lowercase;
 }
 
 .underlined {
+border-bottom: 0px solid 
+#000000;
+border-bottom-color: 
+rgba(0,0,0,0.3);
+}
+
+p a, li a, blockquote a, .text-block a {
 border-bottom: 0px solid 
 #000000;
 border-bottom-color: 
@@ -183,7 +203,7 @@ opacity: 0;
 }
 
 h3 {
-font-size: 1.5em;
+font-size: 1.75em;
 margin: 0 0 0.5em;
 line-height: 1em;
 }
