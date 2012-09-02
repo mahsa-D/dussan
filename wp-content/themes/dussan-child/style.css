@@ -258,6 +258,7 @@ padding: 4px 6px 5px 12px;
 .album-info-block {
 -webkit-text-size-adjust: none;
 position: absolute;
+bottom:auto;
 display: none;
 overflow: auto;
 z-index: 50;
