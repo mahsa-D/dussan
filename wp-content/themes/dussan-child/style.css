@@ -85,8 +85,8 @@ Version:        0.1.0
 
 @font-face {
   font-family: 'dussan';
-  src: url("../fonts/dussan.eot");
-  src: url("../fonts/dussan.eot?#iefix") format('embedded-opentype'), url("../font/dussan.woff") format('woff'), url("../font/dussan.ttf") format('truetype'), url("../font/dussan.svg#dussan") format('svg');
+  src: url("fonts/dussan.eot");
+  src: url("fonts/dussan.eot?#iefix") format('embedded-opentype'), url("fonts/dussan.woff") format('woff'), url("fonts/dussan.ttf") format('truetype'), url("fonts/dussan.svg#dussan") format('svg');
   font-weight: normal;
   font-style: normal;
 }
