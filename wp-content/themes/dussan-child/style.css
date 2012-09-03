@@ -173,6 +173,8 @@ p img {
 
 .album-info-text:before {
       font-family: 'dussan';
+      font-size: 0.9em;
+      color:#EE127B;
       content: '\e70a';
 }
 
