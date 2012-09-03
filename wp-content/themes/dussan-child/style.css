@@ -176,6 +176,8 @@ p img {
       font-size: 0.9em;
       color:#EE127B;
       content: '\e70a';
+      display: inline-block;
+      margin-left: -8px;
 }
 
 .menu {
