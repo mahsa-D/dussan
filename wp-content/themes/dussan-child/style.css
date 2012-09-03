@@ -252,7 +252,8 @@ opacity: 0;*/
 h3 {
 font-size: 1.75em;
 margin: 0 0 0.5em;
-line-height: 1em;
+line-height: .75em;
+color: #ec0b6d;
 }
 
 h1, h2, h3, h4, h5, h6 {
