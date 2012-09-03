@@ -167,11 +167,11 @@ p img {
 	display:none;
 }
 
-.slider-album-indicator {
+.album-info-text {
       padding-left: 25px;
 }
 
-.slider-album-indicator:before {
+.album-info-text:before {
       font-family: 'dussan';
       content: '\e70a';
 }
