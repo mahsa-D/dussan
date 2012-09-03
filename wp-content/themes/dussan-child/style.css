@@ -167,6 +167,14 @@ p img {
 	display:none;
 }
 
+.slider-album-indicator {
+      padding-left: 25px;
+}
+
+.slider-album-indicator:before {
+      font-family: 'dussan';
+      content: '\e70a';
+}
 
 .menu {
 margin: 5px 0 2px 0;
