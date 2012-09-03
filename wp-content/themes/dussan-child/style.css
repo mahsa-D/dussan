@@ -238,14 +238,14 @@ visibility: hidden;
 background: 
 #ED2A7B;
 white-space: nowrap;
-float: left;
+/*float: left;
 position: absolute;
 left: 32px;
 top: 8px;
 padding: 7px 8px 6px;
 font-size: 12px;
 line-height: 18px;
-opacity: 0;
+opacity: 0;*/
 
 }
 
