@@ -21,20 +21,17 @@
    			$gallery_cats = unserialize( $post_meta['dsframework-gallery'][0] );	
 		}
 		
-		if($gallery_cats) {
-			$tax_query = array(               
-		    	'relation' => 'AND',                  
-				array(
-					'taxonomy' => 'ds-gallery-category',     
-					'field' => 'slug',                
-					'terms' => 'nohecho',
-					'include_children' => true,         
-					'operator' => 'IN'                 
-				)
-		    );
-		} else {
-			$tax_query = '';
-		}
+		$tax_query = array(               
+	    	'relation' => 'AND',                  
+			array(
+				'taxonomy' => 'ds-gallery-category',     
+				'field' => 'slug',                
+				'terms' => 'nohecho',
+				'include_children' => true,         
+				'operator' => 'IN'                 
+			)
+	    );
+
 		$loop = new WP_Query( array( 
 			'post_type' => 'ds-gallery', 
 			'posts_per_page' => -1,
