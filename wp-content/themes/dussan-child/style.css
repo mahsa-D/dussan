@@ -110,6 +110,11 @@ Version:        0.1.0
 /* font-size: 120%; */
 }
 
+.collapsed-layout #main-wrap ,
+.collapsed-layout #primary {
+  background: transparent;
+}
+
 .icon-eye:before { content: '\e70a'; } /* 'îœŠ' */
 
 footer.footer-copy {
