@@ -129,7 +129,8 @@ p img {
   display: inline;
 }
 
-#menu-item-254 a {
+#menu-item-254 a ,
+#menu-item-259 a {
   color:#fff;
   display:inline-block;
   position: relative;
