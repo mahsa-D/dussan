@@ -112,7 +112,7 @@ Version:        0.1.0
 
 .icon-eye:before { content: '\e70a'; } /* 'îœŠ' */
 
-footer .footer-copy {
+footer.footer-copy {
   display:none;
 }
 
