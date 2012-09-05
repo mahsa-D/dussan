@@ -134,6 +134,7 @@ p img {
 }
 
 #menu-main li ul li a {
+  display: inline-block;
 	font-family: 'Sentinel-Book';
 	font-size: 14px;
 	text-transform: uppercase;
