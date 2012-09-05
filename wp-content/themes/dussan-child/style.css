@@ -125,7 +125,25 @@ p img {
 	max-width: 100%;
 }
 
+#menu-social li {
+  display: inline;
+}
+
 #menu-item-254 a {
+  color:#fff;
+  display:inline-block;
+  position: relative;
+  overflow: hidden;
+  height: 20px;
+  width: 20px;
+}
+
+#menu-item-254 a:before {
+  font-family: 'dussan';
+  content: '\f310';
+}
+
+#menu-item-259 a:before {
   font-family: 'dussan';
   content: '\f301';
 }
