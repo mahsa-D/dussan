@@ -141,11 +141,13 @@ p img {
 
 #menu-item-254 a:before {
   font-family: 'dussan';
+  color:black;
   content: '\f310';
 }
 
 #menu-item-259 a:before {
   font-family: 'dussan';
+  color:black;
   content: '\f301';
 }
 
