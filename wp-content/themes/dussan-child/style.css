@@ -125,6 +125,11 @@ p img {
 	max-width: 100%;
 }
 
+#menu-item-254 a {
+  font-family: 'dussan';
+  content: '\f301';
+}
+
 #menu-main li a {
 	font-family:'HelveticaNeueLTStd-MdCn';
 	font-size:1.45em;
