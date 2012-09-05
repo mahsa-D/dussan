@@ -323,7 +323,7 @@ text-shadow: none;
 position: absolute;
 z-index: 23;
 color: 
-#3b3a37;
+#333333;
 width: auto;
 top: 86px;
 right: 8px;
@@ -356,5 +356,12 @@ top: 56px;
 max-width: 40em;
 color: 
 #333333;
+}
+
+a, a:link, a:visited, a:active, a:focus {
+color: #333333;
+text-decoration: none;
+outline: none;
+
 }
 
