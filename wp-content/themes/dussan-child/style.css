@@ -183,10 +183,15 @@ p img {
 .album-info-text:before {
       font-family: 'dussan';
       font-size: 0.8em;
-      color:#EE127B;
+      color: #EE127B;
       content: '\e70a';
       display: inline-block;
-      margin-left: -8px;
+      margin-left: -6px;
+      margin-top: -8px;
+      border: solid;
+      border-width: 6px 5px 0px 0px;
+      vertical-align: middle;
+      border-color: white;
 }
 
 .menu {
