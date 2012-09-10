@@ -320,7 +320,7 @@ text-shadow: none;
 }
 
 .two-dim-slider .slider-album-indicator {
-bottom: auto;
+bottom: auto !important;
 position: absolute;
 z-index: 23;
 color: 
